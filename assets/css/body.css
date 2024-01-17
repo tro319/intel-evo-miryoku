@@ -1,0 +1,84 @@
+
+body {
+    background-image: url("../images/background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    margin-bottom: 40px;
+}
+
+#header .bg-info {
+    background: linear-gradient(90deg, rgba(122, 126, 231, 0.8), rgba(122, 126, 231, 0.3)) !important;
+}
+
+#header .navbar h1 {
+    text-shadow: 2px 2px 3px #000;
+}
+
+#header .navbar h1 a {
+    font-size: 1.5rem;
+}
+
+#header .navbar .bg-light {
+    opacity: 0.8;
+}
+
+#header .navbar .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 3px #000;
+    margin-top: 10px;
+}
+
+#header .navbar .navbar-nav .nav-link img {
+    width: 30px;
+}
+
+#main {
+    margin-bottom: 60px;
+}
+
+#main .main-img {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#main .content {
+    background-color: rgba(98, 103, 232, 0.8);
+    padding: 20px;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+#main .content h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main .content p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#footer {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(98, 103, 232, 0.8);
+    padding: 15px;
+}
+
+
+
